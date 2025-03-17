@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praticando Seletores</title>
+    <style>
+        /* Seletor universal */
+        * {
+            font-family: Arial, sans-serif;
+        }
+
+        /* Seletor de classe para o cabeçalho */
+        .cabecalho {
+            font-size: 34px;
+        }
+
+        /* Seletor de tag para o conteúdo principal */
+        main {
+            font-size: 18px;
+        }
+
+        /* Seletor de classe para o rodapé */
+        .rodape {
+            font-size: 14px;
+            background-color: gray;
+        }
+
+        /* Seletor de id para o último parágrafo do footer */
+        #last-content {
+            font-weight: bold;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header class="cabecalho">
+        <h1>Bem-vindo ao Meu Site</h1>
+    </header>
+    <main>
+        <p>Este é o primeiro parágrafo do conteúdo principal.</p>
+        <p>Este é o segundo parágrafo do conteúdo principal.</p>
+    </main>
+    <footer class="rodape">
+        <p>Contato: contato@meusite.com</p>
+        <p id="last-content">Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

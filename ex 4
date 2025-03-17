@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de Seletores</title>
+    <style>
+        /* Seletor de irmão geral (~): Todos os parágrafos após o <h1> ficam verdes */
+        h1 ~ p {
+            color: green;
+        }
+
+        /* Seletor de irmão adjacente (+): Apenas o primeiro parágrafo após o <h2> fica azul */
+        h2 + p {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título 1</h1>
+    <p>Parágrafo 1</p>
+    <h2>Título 2</h2>
+    <p>Parágrafo 2</p>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletores Descendentes</title>
+    <style>
+        /* Altera a cor da fonte para azul em todo conteúdo filho de <div> */
+        .container * {
+            color: blue;
+        }
+
+        /* Estiliza apenas os itens da lista <li> dentro da segunda <section> */
+        .container .section2 ul li {
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <section class="section1">
+            <p>Parágrafo 1</p>
+            <p>Parágrafo 2</p>
+            <p>Parágrafo 3</p>
+        </section>
+        <section class="section2">
+            <ul>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
